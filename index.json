@@ -1,0 +1,48 @@
+{
+  "format": 1,
+  "title": {
+    "en": "ydxckj DSH plugins",
+    "zh": "ydxckj DSH 插件源"
+  },
+  "description": {
+    "en": "Verified DSH plugin releases published under ydxckj.",
+    "zh": "ydxckj 账号下发布的 DSH 插件校验发行版本。"
+  },
+  "plugins": [
+    {
+      "name": "dsh-purge-community",
+      "title": {
+        "en": "dsh-purge Community",
+        "zh": "dsh-purge Community"
+      },
+      "description": {
+        "en": "Host-policy patches, prompt/rule management, diagnostics, verified updates, and local backup/rollback.",
+        "zh": "宿主策略补丁、提示词与规则管理、诊断、校验更新和本机备份回滚。"
+      },
+      "author": "ydxckj; original dsh-purge by YuJunZhiXue",
+      "homepage": "https://github.com/ydxckj/dsh-purge-community#readme",
+      "repository": {
+        "url": "https://github.com/ydxckj/dsh-purge-community"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiMxNjY1MzQiLz48dGV4dCB4PSIzMiIgeT0iNDUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IndoaXRlIiBmb250LXNpemU9IjQ0IiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiI+UDwvdGV4dD48L3N2Zz4=",
+      "versions": [
+        {
+          "version": "1.7.21",
+          "publishTimestamp": 1795494377,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/ydxckj/dsh-purge-community",
+            "commit": "88f3cb83f3b2361c87511ee99d371a4d786ba08c"
+          },
+          "engines": {
+            "dsh": ">=0.2.1-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "categories": {},
+    "labels": {}
+  }
+}
